@@ -1,0 +1,64 @@
+1.  Hostory
+ // JavaScript was created by Brendan Eich in 1995.
+ // Mocha => LiveScript => JavaScript
+
+======================================================================================================================================
+
+2. Scripting Languages
+ // Scripting languages are those languages which are interpreted rather than compiled.
+ // executed line-by-line by the interpreter at the runtime thus allowing for quicker development cycles and easier debugging.
+ // Scripting languages are commonly used for tasks such as system administration, web development, text processing and automation.
+ 
+
+ // client side scripting language (scripting - line by line execution)
+ // javascript make web page interactive and dynamic
+ // opensource(free) and cross-platform(any os it will support)
+ // case sensitive (difference between capital and small letter)
+ // It is supported in all the browser 
+ // lightweight and object(noun) oriented programming 
+ // It is used in both places client side and server side.
+ // library/framework : Reactjs,angular,Vuejs 
+ // DOM - Document Object Model - Helps to interact with html 
+
+ =======================================================================================================================================
+
+3. Programming Languages
+ //  Programming languages are compiled languages, which means the source code is compiled to convert it to machine code.
+ //  A programming language is a computer language which is used to communicate with computers using a set of instructions. 
+ //  Programming languages utilize compilers and do not rely on interpretation by another language or application.
+
+
+4. Two ways of writing Javascript 
+  1.internal 
+    // anywhere inside the html tag you can write it.
+    // Best place is inside the head tag.
+      example:
+           <script>
+             alert("hello world")
+           </script>
+
+   2.external
+          external.js 
+            alert("hello world")
+
+=========================================================================================================================================
+
+5. JavaScript Engines for Executing JavaScript Code
+  // A JavaScript engine is the software that takes our JavaScript code and translates it into instructions that your computer can understand. 
+  // It is like a powerful interpreter.
+
+  Some of the most popular JS engines today are :
+    1.  V8
+       //  Developed by Google, V8 is one of the most widely used JavaScript engines. 
+       //  It powers the JavaScript execution in Google Chrome and Node.js.
+
+    2.  SpiderMonkey 
+       // Developed by Mozilla Firefox, SpiderMonkey is the JavaScript engine used in the Firefox web browser.
+       // It was one of the first JavaScript engines ever created and is known for its performance and compliance with JavaScript standards.
+
+    3. JavaScriptCore 
+       // Used in Safari, known for its tight integration with Apple devices.
+
+    4. Chakra 
+       // Developed by Microsoft, Chakra was the JavaScript engine used in the Edge web browser. 
+       // It has now been replaced by the Chromium-based Edge browser, which uses V8 as its JavaScript engine.
