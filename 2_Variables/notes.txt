@@ -1,0 +1,42 @@
+1. ECMAScript ( European Computer Manufacturers Association Script.)
+ // The official name of JavaScript is ECMAScript. 
+ // Let & const were introduced in 2015 as new features of JavaScript.
+ // Before that, var was the only way to declare a variable.
+
+ ===============================================================================================
+
+2. VAR 
+ //  Variables declared with var are function-scoped or globally-scoped, but not block-scoped. 
+ //  This means that variables declared with var are hoisted to the top of their function or global scope. 
+ //  This hoisting behavior can sometimes lead to unexpected results and make debugging challenging.
+ //  The var keyword allows variables to be both reassigned and redefined within the same scope, unlike let which only allows reassignment.
+ //  This behavior of var can sometimes lead to unexpected results and bugs in code if not used carefully.
+ var is function scoped
+         // When we declare a variable using var inside a function, we canot access the variable outside the function.
+
+ //  var has some quirks and drawbacks, especially related to variable hoisting and its lack of block scope.
+ //  Due to these issues, let and const were introduced in ES6 (ECMAScript 2015) to provide better variable scoping mechanisms.
+ //  It's generally recommended to use let and const instead of var in modern JavaScript code, unless there's a specific reason to use var.
+
+==============================================================================================================================================================
+
+3. let
+
+// The let keyword is used to declare variables that are block-scoped, meaning they are only accessible within the block in which they are defined. 
+// Block scope refers to any code block delimited by curly braces {} such as loops, conditionals, or function bodies.
+// Variables declared with let can be reassigned, just like those declared with var, but they cannot be redeclared within the same block scope. 
+// This helps prevent accidental redeclaration of variables and can aid in writing more predictable and maintainable code
+
+4. const
+
+  // The const keyword is used to declare constants. Constants are variables whose values cannot be reassigned once they are initialized.
+  // This means that once a value is assigned to a constant using const, it cannot be changed or reassigned throughout the execution of the script.
+  // Constants declared with const must be initialized with a value. 
+  // Unlike variables declared with var or let, which can be declared without immediately assigning a value, const requires initialization at the time of declaration.
+
+ // It's important to note that while the value assigned to a constant cannot be changed, 
+ // if the value is an object or an array, its properties or elements can still be modified.
+ // This is because const only prevents reassignment of the variable itself, not its properties or elements.
+
+ // It is important to remember that for complex data types like objects and arrays,
+ // const only prevents reassignment of the variable itself, not its properties or elements.
