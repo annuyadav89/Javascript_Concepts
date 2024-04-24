@@ -18,7 +18,7 @@
  //  Due to these issues, let and const were introduced in ES6 (ECMAScript 2015) to provide better variable scoping mechanisms.
  //  It's generally recommended to use let and const instead of var in modern JavaScript code, unless there's a specific reason to use var.
 
-==============================================================================================================================================================
+=======================================================================================================================================
 
 3. let
 
@@ -26,7 +26,7 @@
 // Block scope refers to any code block delimited by curly braces {} such as loops, conditionals, or function bodies.
 // Variables declared with let can be reassigned, just like those declared with var, but they cannot be redeclared within the same block scope. 
 // This helps prevent accidental redeclaration of variables and can aid in writing more predictable and maintainable code
-
+==================================================================================================================================
 4. const
 
   // The const keyword is used to declare constants. Constants are variables whose values cannot be reassigned once they are initialized.
