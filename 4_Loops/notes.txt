@@ -1,0 +1,7 @@
+   //  We often need to repeat actions.
+  //   For example, outputting goods from a list one after another or just running the same code for each number from 1 to 10.
+ //    Loops are a way to repeat the same code multiple times.
+
+  //   while – The condition is checked before each iteration.
+ //    do..while – The condition is checked after each iteration.
+//     for (;;) – The condition is checked before each iteration, additional settings available.
