@@ -1,0 +1,63 @@
+1. Types of operators
+  🌟 Arithmetic Operators
+  📍Assignment Operators
+  🌟Comparison Operators
+  📍Logical Operators
+  🌟Bitwise Operators
+  📍Ternary Operators
+
+===============================================================
+
+🌟Bitwise Operators
+ 
+ // Bitwise operators are used to do manipulation of individual bits within the binary representation of numbers.
+ // There are several bitwise operators are used in JavaScript :
+
+  (a) Bitwise AND (&)
+   //In binary system numbers are represented in 0's and 1's,
+   // so bitwise AND(&) will return 1 only when both the corresponding bits are 1 simultaneously else it will return 0.
+
+  num1  num2  num1 & num2
+   1      0      0
+   0      1      0
+   0      0      0
+   1      1      1
+
+  (b) Bitwise OR (|)
+    // Bitwise OR(|) will return 1 if any one of the corresponding bits is 1, else it will return 0.
+
+  num1  num2  num1 | num2
+   1      0      1
+   0      1      1
+   0      0      0
+   1      1      1
+
+  (c) Bitwise NOT (~)
+     // It is used on a single number.
+     // Bitwise NOT operator inverts all the bits (0 is inverted to 1 and 1 is inverted to 0) of the given number and returns the new number as output.
+ 
+  (d) Bitwise XOR (^)
+    // bitwise XOR(^) will return 1 only when both the corresponding bits are different else it will return 0.
+
+  num1  num2  num1 ^ num2
+   1      0      1
+   0      1      1
+   0      0      0
+   1      1      0
+
+  (e) Left Shift (<<)
+    // . It shifts the bits of the left operand to the left, by a number of positions specified by the right operand.
+    // 0 comes in the place of the least significant bit after each shifting is done.
+
+    //  For example, the binary representation of 5 is '00000101',
+    //  Now, when we use '5 << 2', it means we want to shit the binary representation of 5 left by 2 positions and then it becomes '00010100',
+    //  The number whose binary representation is '00010100', is 20.
+    //  Thus '5 << 2' = 20.(5*2**2=20)
+    //  The left shift operator effectively multiplies the left operand by 2 to the power of the right operand.
+
+  (f) Right Shift (>>)
+    //   It shifts the bits of the left operand to the right, by a number of positions specified by the right operand preserving the sign of the original number.
+
+
+📍 Ternary operator
+   //  condition? true_statement : false_statement;
