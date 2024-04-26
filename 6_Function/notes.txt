@@ -1,0 +1,57 @@
+ //  Functions are the main “building blocks” of the program.
+ // They allow the code to be called many times without repetition. 
+
+ Function Declaration : 
+ function showMessage() {
+  alert( 'Hello everyone!' );
+ }
+
+ // calling this function by using :  showMessage();
+
+ function name(parameter1, parameter2, ... parameterN) {
+ // body
+
+  //  A parameter is the variable listed inside the parentheses in the function declaration (it’s a declaration time term).
+  //  An argument is the value that is passed to the function when it is called (it’s a call time term).
+  //  showMessage(1,2,.....n);
+
+ Return Keyword
+         //   The return statement terminates the execution of a function and returns a value to the caller.
+         //   When you use return inside a function, the function stops running immediately and hands control back to the higher context (the code that called the function).
+ 
+ Syntax : return value;
+   //  The value is optional. If omitted, the function returns undefined.
+
+   // The return statement should be the last statement in a function because any code after it won’t be accessible.
+  //  You can use return to specify the value that the function should produce as a final result.
+
+================================================================================================================
+
+ function:
+   //Set of repetative task we can write inside the function 
+   //function is nothing but a set of code written in one block 
+   //function name should start will small case.
+ example:
+   function function_name(){
+
+  }
+    function_name();
+
+function with parameters
+  //we are passing input values to the function 
+  //you can pass any number of parameters 
+  //you can pass any datatype
+function function_name(speed,name){
+
+ }
+
+ function_name(4,'lg');
+
+function with return statement:
+  //function is returning an value.
+  //function can return anything
+  //we need an variable to store return value of a function 
+ example:
+ function function_name(){
+  return 1;
+}
