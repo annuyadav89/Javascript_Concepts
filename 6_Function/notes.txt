@@ -8,6 +8,12 @@
 
  // calling this function by using :  showMessage();
 
+ Function Expression :
+   let sayHi = function() {
+   alert( "Hello" );
+ };
+ //  if we assign a function with =  (to the right side of =), this is a Function Expression.
+
  function name(parameter1, parameter2, ... parameterN) {
  // body
 
