@@ -1,0 +1,39 @@
+Object:
+  //  Objects: JavaScript objects are fundamental data structures that enable the organization and storage of data in the form of key-value pairs.
+  //  Objects are unordered collection of key value pairs. These key-value pairs, known as properties.
+
+ 1.  There can be typically four ways to create an Object in JavaScript.
+  // Using object literal.
+  // Using new keyword
+  // Using Object.create() method
+  // Using Factory functions
+  // Using Constructor functions
+
+ 
+ Using object literal
+  // Object literal is a list of key-value pairs enclosed in curly braces '{}'.
+
+ #  Every object has properties, which are represented in JavaScript as key-value pairs.
+
+ Key : 
+  //  In JavaScript key must either be strings or valid identifier or variable names. 
+  //  Expressions cannot be keys,also special characters are not allowed in key names that are not strings.
+
+ Value :
+  //  Value can be anything such as numbers, strings, booleans, arrays, functions and even objects.
+ 
+ #  When a function is a property of an object, it is also referred to as a method.
+
+
+ #  In JavaScript, almost "everything" is an object.
+
+  //  Booleans can be objects (if defined with the new keyword)
+  //  Numbers can be objects (if defined with the new keyword)
+  //  Strings can be objects (if defined with the new keyword)
+  //  Dates are always objects
+  //  Maths are always objects
+  //  Regular expressions are always objects
+  //  Arrays are always objects
+  //  Functions are always objects
+  //  Objects are always objects
+All JavaScript values, except primitives, are objects.
