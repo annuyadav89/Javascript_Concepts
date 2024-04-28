@@ -63,4 +63,42 @@
 
 // console.log(person2);
 
+
+
+// function createPerson(fName, lName, age, hobbies){
+
+//   return {
+//       firstName : fName,
+//       lastName : lName,
+//       age : age,
+//       hobbies : ["sleeping", "writing", "playing"]
+//   }
+// }
+
+// let person = createPerson("Love", "Babbar", 24);
+
+// console.log(person);
+
 //  ========================================================================================================
+
+
+const person = {
+  name : "dharam",
+  age : 2,
+  toys:["panda","snake","dancing police car"]
+}
+
+console.log(person["name"]);
+console.log(person.name);
+
+
+const person2 = {
+  "1Name" : "dharmishth",
+  age : 2,
+  toys:["panda","snake","dancing police car"]
+}
+
+console.log(person2["1Name"]);
+// console.log(person2.1Name); // "we cannot use Dot Notation when the property name or method of an object contains special characters, space or starts with a number".
+
+//  ==========================================================================================================

@@ -24,6 +24,52 @@ Object:
  
  #  When a function is a property of an object, it is also referred to as a method.
 
+ ===============================================================================================================
+
+ # To access the value of a particular key in an object, we typically use two notations:
+   //  Dot Notation
+
+       const person = {
+                 name: 'Mayank',
+                 age: 21,
+                 message: function() {
+              console.log('Hellooooooo!');
+                }
+              };
+
+             let myName = person.name;
+             console.log(myName);
+             let myAge = person.age;
+             console.log(myAge);
+             let message = person.message();
+
+
+
+   //  Bracket Notation
+
+         
+         const person = {
+             name: 'Mayank',
+              age: 21,
+                message: function() {
+                 console.log('Hellooooooo!');
+                  }
+               };
+
+               let myName = person["name"];
+                  console.log(myName);
+                let myAge = person["age"];
+                console.log(myAge);
+               let message = person["message"]();
+
+  
+
+  **   You most be thinking that why two different ways to access the properties what is the difference, and which one is more convenient?. 
+  //  The answer is "we cannot use Dot Notation when the property name or method of an object contains special characters, space or starts with a number".
+
+ ==========================================================================              
+
+
 
  #  In JavaScript, almost "everything" is an object.
 
