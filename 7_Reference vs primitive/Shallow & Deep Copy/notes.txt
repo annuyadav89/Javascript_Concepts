@@ -1,0 +1,17 @@
+  Shallow Copying:
+     //  Shallow copying refers to creating a new object or array with the same values as the original, 
+     //  but the new object or array only holds references to the original object's or array's values.
+     //  This means that any changes made to the original object or array will also be reflected in the copied object or array.
+
+     //  example
+       const originalArray = [1, 2, 3, 4];
+       const newArray = originalArray;
+
+     // In this case, newArray is a shallow copy of originalArray.
+     // Any changes made to the originalArray will also be reflected in newArray. 
+
+ 
+  Why use Shallow Copying?
+     // Shallow copying can be useful in situations where you need to create a new object or array quickly and efficiently.
+     // Since a shallow copy only holds references to the original object's or array's values, it requires less memory than a deep copy.
+     // Shallow copying is also useful when working with large objects or arrays, as creating a deep copy of a large object or array can be a time-consuming process.
